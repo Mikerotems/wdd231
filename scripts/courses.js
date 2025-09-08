@@ -83,7 +83,7 @@ const courses = [
 function getCourseHTML(course) {
     return `
         <div class="course-card ${course.completed ? 'completed' : 'not-completed'}">
-            <h3>${course.subject} ${course.number}</h3>
+            <h3> ${course.subject} ${course.number}</h3>
         </div>
     `;
 }

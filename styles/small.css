@@ -145,6 +145,12 @@ footer {
 .course-card.completed {
     border-left: 8px solid #0074D9;
     background: #ecf0f1;
+    content: "\2713";
+}
+.course-card.completed h3::before{
+    content: "\2713 ";
+    color: #0074D9;
+    font-weight: bold;
 }
 
 .course-card.not-completed {
@@ -152,8 +158,13 @@ footer {
     background: #ecf0f1;
     font-family: Georgia;
     font-style: italic;
+    content: "\2717";
 }
-
+.course-card.not-completed h3::before {
+    content: "\2717";
+    color: #e74c3c;
+    font-weight: bold;
+}
 .status {
     font-weight: bold;
     padding: 0.2em 0.6em;
