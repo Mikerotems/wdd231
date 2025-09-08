@@ -11,25 +11,43 @@
     header {
         grid-template-columns: 24px auto;
     }
+
     .navigation {
         display: block;
         margin-top: 8px;
         border-bottom: solid 1px #eee;
     }
-    .navigation ul{
+
+    .navigation ul {
         display: flex;
         gap: 16px;
         list-style: none;
         padding: 0;
         margin: 0;
     }
-    .navigation a{
+
+    .navigation a {
         border: none;
     }
-}
-main{
-    display: block;
-    gap: 20px;
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 350px;
+        grid-gap: 20px;
+    }
+
+    #me {
+        grid-column: 1/2;
+    }
+
+    #photo {
+        grid-column: 2/3;
+    }
+
+    #third {
+        grid-column: span 2;
+    }
+
 }
 .filter-buttons {
     display: flex;
