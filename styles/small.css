@@ -158,7 +158,7 @@ footer {
     font-style: italic;
     content: "\2717";
 }
-/*marks*/
+
 .course-card.not-completed h3::before {
     content: "\2717";
     color: #e74c3c;
