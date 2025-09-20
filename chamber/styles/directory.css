@@ -1,0 +1,278 @@
+*:root {
+    font-family: Verdana, "Epunda Sans", Tahoma, sans-serif;
+    box-sizing: border-box;
+    --primary-color: #0a253f;
+    --secondary-color: #0074D9;
+    --background-color: #ffffff;
+    --text-color: #222b45;
+    --border-color: #ddd;
+    --card-bg: #f9f9f9;
+    --shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    align-items: end;
+    border-bottom: solid 1px var(--border-color);
+    column-gap: 8px;
+    padding: 5px 0 5px 10px;
+}
+
+.view-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#gridView,
+#listView {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--background-color);
+    border: none;
+    background-color: var(--primary-color);
+    padding: 4px 4px 6px 8px;
+    border-radius: 7px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#gridView::before {
+    content: "\25A6";
+    font-size: 1.2em;
+}
+
+#listView::before {
+    content: "\2630";
+    font-size: 1.2em;
+}
+
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.list-view {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.list-view .card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.grid-view .card {
+    display: grid;
+    align-items: center;
+    margin-bottom: 5px;
+}
+/* Business Cards 
+.card {
+    background: var(--card-bg);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--primary-color);
+    border-radius: 1px;
+    padding: 1rem;
+    text-align: center;
+}
+/
+.card:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #e74c3c;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+/* Visit Website Button 
+.card a {
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: var(--secondary-color);
+}
+
+/* List View */
+.list-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    padding: 10px;
+    max-width: 850px;
+}
+
+.list-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.list-card h3 {
+    font-size: .6rem;
+}
+
+.list-card p {
+    font-size: .5rem;
+}
+
+.list-card a {
+    font-size: .6rem;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #3d405B;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #3d405B;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li.current {
+    background-color: #ddd;
+}
+
+.navigation li.current a {
+    background-color: #ddd;
+    color: #e74c3c;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.navigation a {
+    display: block;
+    padding: .6rem 15px;
+    color: #3d405B;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #e7cae3;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+h2 {
+    margin: 10px;
+    background-color: #3d405B;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+
+}
+
+footer {
+    background: #ecf0f1;
+    text-align: left;
+    padding: 1rem 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    justify-items: center;
+    position: static;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    color: #3d405B;
+    padding: .5rem.3rem;
+    width: 30px;
+    height: 25px;
+    border-radius: 25px;
+    border: solid 1px #3d405B;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    ;
+}
+
+.social a:hover {
+    background-color: #e7cae3;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main img {
+    width: 80%;
+    height: auto;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#about {
+    text-align: justify;
+    margin: 10px;
+    font-size: 1rem;
+    color: #0a253f;
+}

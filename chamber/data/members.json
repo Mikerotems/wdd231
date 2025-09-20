@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Rotems IT & Finances",
+        "address": "23, Araromi Str, Odeda, Ogun State",
+        "phone": "+234 906 597 9328",
+        "website": "https://rotemsfintech.com",
+        "image": "images/rotems.webp",
+        "membership": 3,
+        "info": "Leading Fintech solutions provider in Ogun."
+    },
+    {
+        "name": "Vicky Fashion House",
+        "address": "01, Odeda Str, Odeda, Ogun State",
+        "phone": "+234 901 773 2573",
+        "website": "https://vickyfashionhouse.com",
+        "image": "images/vicky.webp",
+        "membership": 3,
+        "info": "Trendy fashion retailer for all ages."
+    },
+    {
+        "name": "Green Energy Solutions",
+        "address": "34 Rotems Farms Avenue, Odeda",
+        "phone": "+234 242 123 4561",
+        "website": "https://greenenergy.com",
+        "image": "images/green.webp",
+        "membership": 2,
+        "info": "Renewable energy products and consulting."
+    },
+    {
+        "name": "Legical Legal Services",
+        "address": "9 Law Chambers, Camp, Abeokuta",
+        "phone": "+234 242 987 6544",
+        "website": "https://legicallaws.com",
+        "image": "images/legical.webp",
+        "membership": 2,
+        "info": "Legal advice and representation."
+    },
+    {
+        "name": "Adebowale Construction Co.",
+        "address": "56 Building Road, Belvedere",
+        "phone": "+234 242 456 7489",
+        "website": "https://adeboconstruction.co.zw",
+        "image": "images/adebowale.webp",
+        "membership": 3,
+        "info": "Commercial and residential construction."
+    },
+    {
+        "name": "EcoFarm Nigeria",
+        "address": "8 Green Valley Road, Odeda",
+        "phone": "+234 712 555 8588",
+        "website": "https://ecofarm.org",
+        "image": "images/ecofarm.webp",
+        "membership": 1,
+        "info": "Organic farming and produce supplier."
+    },
+    {
+        "name": "Ademola Architectures",
+        "address": "17 Design Crescent, Ibara, Abeokuta",
+        "phone": "+234 242 222 1311",
+        "website": "https://ademola.com.ng",
+        "image": "images/ademola.webp",
+        "membership": 2,
+        "info": "Architectural design and consulting."
+    },
+    {
+        "name": "Bluewave Digital Media",
+        "address": "12 Ocean View Street, Odeda, Ogun State",
+        "phone": "+234 805 123 4567",
+        "website": "https://bluewavedigital.com",
+        "image": "images/bluewave.webp",
+        "membership": 2,
+        "info": "Creative agency specializing in web design, branding, and digital marketing."
+    }
+]
