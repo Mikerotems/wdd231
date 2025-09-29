@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Odeda Chamber of Commerce - Oluwarotimi Michael Ademola - Directory page">
+    <meta name="author" content="Oluwarotimi M Ademola">
+    <meta property="og:title" content="Chamber of Commerce website">
+    <meta property="og:description" content="Odeda Chamber of Commerce - Oluwarotimi Michael Ademola - Directory page">
+    <meta property="og:url" content="https://mikerotems.github.io/wdd231/directory.html">
+    <meta property="og:image" content="https://mikerotems.github.io/wdd231/images/photo.webp" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <title>Odeda Chamber of Commerce website </title>
+</head>
+
+<body>
+    <header>
+        <img src="images/shop.svg" alt="site logo" width="1" height="1">
+        <span>Odeda Chamber</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Discovery</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/market.webp" alt="Odeda Chamber">
+            <div class="hero-content">
+                <h1>Welcome to Odeda Chamber of Commerce</h1>
+                <p>Empowering local businesses and fostering community growth.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+        <!-- Events Section -->
+        <section class= "events">
+            <h2>Upcoming Events</h2>
+            <div id="events-container">
+                <p>Loading events...</p>
+            </div>
+        </section>
+        <!-- Weather Section -->
+        <div class="weather-container">
+            <section class="current-weather">
+                <h2>🌤️ Current Weather</h2>
+                <div class="weather-details">
+                    <p><strong>Temperature:</strong> <span id="current-temp">--°C</span></p>
+                    <p><strong>Conditions:</strong> <span id="weather-desc">Loading...</span></p>
+                    <p><strong>High:</strong> <span id="high-temp">--°C</span></p>
+                    <p><strong>Low:</strong> <span id="low-temp">--°C</span></p>
+                    <p><strong>Humidity:</strong> <span id="humidity">--%</span></p>
+                    <p><strong>Sunrise:</strong> <span id="sunrise">--:--</span></p>
+                    <p><strong>Sunset:</strong> <span id="sunset">--:--</span></p>
+                </div>
+            </section>
+
+            <section class="weather-forecast">
+                <h2>📅 Weather Forecast</h2>
+                <div id="forecast-container"></div>
+                <!-- The 3-day forecast details will be dynamically inserted here -->
+            </section>
+        </div>
+
+        <!-- Spotlight Section -->
+        <section class="spotlight">
+            <h2>Member Spotlight</h2>
+            <div id="spotlight-container" class="spotlight-grid">
+                <!-- Spotlight members will be inserted here dynamically -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Odeda Chamber of Commerce</p>
+            <p> 15 Araromi Plaza</p>
+            <p>Odeda market, Ogun state</p>
+            <p>info@odedacc.org</p>
+            <p>+234 906 597 9328</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook logo"
+                    width="16" height="16"></a>
+            <a href="https://www.github.com/" target="_blank"><img src="images/github.svg" alt="github logo" width="16"
+                    height="16"></a>
+            <a href="https://www.x.com/" target="_blank"><img src="images/x.svg" alt="twitter logo" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"
+                    width="16" height="16"></a>
+        </div>
+        <div>
+            <p> WDD231 Class Project<span id="lastModifiedFooter"></span></p>
+            <p><span class="full-name"></span></p>
+            <p>&copy; 2025 Odeda Chamber of Commerce</p>
+            <span id="lastModified"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>

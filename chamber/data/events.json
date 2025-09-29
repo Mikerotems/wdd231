@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "title": "Business Networking Night",
+            "date": "2025-10-10",
+            "time": "18:00",
+            "location": "Araromi Plaza, Odeda",
+            "description": "Connect with local entrepreneurs and expand your business network at our monthly networking night.",
+            "image": "images/networking.webp"
+        },
+        {
+            "title": "Market Expansion Workshop",
+            "date": "2025-11-05",
+            "time": "10:00",
+            "location": "Odeda Chamber Hall",
+            "description": "Learn strategies for growing your business and reaching new markets in Ogun State.",
+            "image": "images/workshop.webp"
+        },
+        {
+            "title": "Annual Chamber Gala",
+            "date": "2025-12-15",
+            "time": "19:30",
+            "location": "Odeda Civic Center",
+            "description": "Celebrate the year's achievements with fellow members at our annual gala dinner.",
+            "image": "images/gala.webp"
+        }
+    ]
+}
