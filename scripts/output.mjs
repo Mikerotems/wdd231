@@ -15,3 +15,4 @@ export function renderSections(sections) {
         document.querySelector("#sections").innerHTML = html.join("");
     }
 }
+

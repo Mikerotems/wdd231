@@ -1,0 +1,62 @@
+@media only screen and (min-width: 32rem) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    main {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .join-form-section {
+        flex: 2;
+    }
+
+    .membership-cards {
+        flex: 1;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    header {
+        grid-template-columns: 24px auto auto;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .navigation {
+        display: block;
+        margin-top: 0;
+        border: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 16px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation a {
+        border: none;
+    }
+    footer {
+        background: #ecf0f1;
+        text-align: left;
+        padding: 1rem 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}

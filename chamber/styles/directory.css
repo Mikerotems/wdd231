@@ -73,40 +73,6 @@ header {
     align-items: center;
     margin-bottom: 5px;
 }
-/* Business Cards 
-.card {
-    background: var(--card-bg);
-    box-shadow: var(--shadow);
-    border: 1px solid var(--primary-color);
-    border-radius: 1px;
-    padding: 1rem;
-    text-align: center;
-}
-/
-.card:hover {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-    background-color: #e74c3c;
-}
-
-.card img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    margin-right: 1rem;
-}
-
-/* Visit Website Button 
-.card a {
-    display: inline-block;
-    font-size: 1rem;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.card a:hover {
-    color: var(--secondary-color);
-}
 
 /* List View */
 .list-card {
