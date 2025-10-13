@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Odeda Chamber of Commerce - Oluwarotimi Michael Ademola - Directory page">
+    <meta name="author" content="Oluwarotimi M Ademola">
+    <meta property="og:title" content="Chamber of Commerce website">
+    <meta property="og:description" content="Odeda Chamber of Commerce - Oluwarotimi Michael Ademola - Directory page">
+    <meta property="og:url" content="https://mikerotems.github.io/wdd231/directory.html">
+    <meta property="og:image" content="https://mikerotems.github.io/wdd231/images/photo.webp" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <title>Odeda Chamber of Commerce website </title>
+</head>
+
+<body>
+    <header>
+        <img src="images/shop.svg" alt="site logo" width="1" height="1">
+        <span>Odeda Chamber</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="directory.html">Discovery</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="view-buttons">
+            <button id="gridView" type="button" title="Switch to grid view"><i class="fas fa-th"
+                    aria-hidden="true"></i></button>
+            <button id="listView" type="button" title="Switch to list view"><i class="fas fa-list"
+                    aria-hidden="true"></i></button>
+        </div>
+        <section id="directory" class="card">
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Odeda Chamber of Commerce</p>
+            <p> 15 Araromi Plaza</p>
+            <p>Odeda market, Ogun state</p>
+            <p>info@odedacc.org</p>
+            <p>+234 906 597 9328</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook logo"
+                    width="16" height="16"></a>
+            <a href="https://www.github.com/" target="_blank"><img src="images/github.svg" alt="github logo" width="16"
+                    height="16"></a>
+            <a href="https://www.x.com/" target="_blank"><img src="images/x.svg" alt="twitter logo" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo"
+                    width="16" height="16"></a>
+        </div>
+        <div>
+            <p> WDD231 Class Project<span id="lastModifiedFooter"></span></p>
+            <p><span class="full-name"></span></p>
+            <p>&copy; 2025 Odeda Chamber of Commerce</p>
+            <span id="lastModified"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
