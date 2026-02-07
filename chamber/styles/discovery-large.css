@@ -1,0 +1,238 @@
+/* Medium Screens (641px - 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+    header {
+        grid-template-columns: 24px auto 1fr;
+        padding: 10px 20px;
+    }
+
+    header span {
+        font-size: 1.5rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block !important;
+        position: static;
+        border: none;
+        background-color: transparent;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    .navigation a {
+        padding: 10px 15px;
+        border-bottom: 3px solid transparent;
+        transition: border-color 0.3s;
+    }
+
+    .navigation a:hover {
+        background-color: transparent;
+        border-bottom-color: var(--secondary-color);
+    }
+
+    .navigation .current a {
+        background-color: transparent;
+        color: var(--secondary-color);
+        border-bottom-color: var(--secondary-color);
+    }
+
+    .hero {
+        padding: 50px 30px;
+        min-height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .attractions {
+        padding: 40px 30px;
+    }
+
+    .attractions h2 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    /* Medium Screen Grid (641px - 1024px) - 2 columns */
+    .attractions-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+
+    .attraction-card {
+        padding: 20px;
+    }
+
+    .attraction-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .attraction-card img {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* Hover effect for medium screens */
+    .attraction-card:hover img {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+
+    .visitor-message {
+        margin: 30px 30px;
+    }
+
+    footer {
+        padding: 30px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+    header {
+        grid-template-columns: 24px auto 1fr;
+        padding: 15px 40px;
+    }
+
+    header span {
+        font-size: 1.8rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block !important;
+        position: static;
+        border: none;
+        background-color: transparent;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 30px;
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    .navigation a {
+        padding: 10px 0;
+        border-bottom: 3px solid transparent;
+        transition: border-color 0.3s, color 0.3s;
+        font-size: 1.1rem;
+    }
+
+    .navigation a:hover {
+        background-color: transparent;
+        border-bottom-color: var(--secondary-color);
+        color: var(--secondary-color);
+    }
+
+    .navigation .current a {
+        background-color: transparent;
+        color: var(--secondary-color);
+        border-bottom-color: var(--secondary-color);
+    }
+
+    .hero {
+        padding: 60px 40px;
+        min-height: 350px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+    }
+
+    .attractions {
+        padding: 50px 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .attractions h2 {
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+    }
+
+    /* Large Screen Grid (1025px and above) - 4 columns */
+    .attractions-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        grid-template-areas:
+            "card1 card2 card3 card4"
+            "card5 card6 card7 card8";
+    }
+
+    .attraction-card {
+        padding: 25px;
+    }
+
+    .attraction-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .attraction-card p {
+        font-size: 1rem;
+    }
+
+    .attraction-card img {
+        transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+    }
+
+    /* Advanced hover effects for large screens */
+    .attraction-card:hover img {
+        transform: scale(1.08) rotate(2deg);
+        opacity: 0.85;
+        filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.3));
+    }
+
+    .visitor-message {
+        margin: 40px 40px;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        padding: 40px 40px;
+        font-size: 1rem;
+    }
+
+    footer>div {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
